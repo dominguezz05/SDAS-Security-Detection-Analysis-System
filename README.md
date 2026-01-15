@@ -1,18 +1,24 @@
 # SDAS – Security Detection & Analysis System
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SDAS-Security%20Detection%20&%20Analysis%20System-black">
-  <img src="https://img.shields.io/badge/Java-17+-blue">
-  <img src="https://img.shields.io/badge/Status-Operational-green">
+  <img src="https://img.shields.io/badge/Project-SDAS-black" />
+  <img src="https://img.shields.io/badge/Language-Java%2017%2B-blue" />
+  <img src="https://img.shields.io/badge/Status-Operational-success" />
+  <img src="https://img.shields.io/badge/Purpose-Academic-orange" />
 </p>
 
-Sistema didáctico en Java orientado a la detección simulada de amenazas mediante tres módulos principales:
+SDAS es un sistema didáctico diseñado para simular capacidades básicas de detección y análisis de amenazas. Su objetivo es ilustrar cómo un sistema de ciberseguridad puede:
+
+✔ Monitorizar recursos del sistema  
+✔ Analizar tráfico de red  
+✔ Identificar patrones anómalos  
+✔ Registrar evidencia forense  
+
+El sistema se organiza en tres módulos:
 
 - **Módulo 1 – Integridad de ficheros**
 - **Módulo 2 – Análisis de tráfico de red**
 - **Módulo 3 – Procesos y malware simulado**
-
-El objetivo es mostrar cómo un sistema de ciberseguridad puede vigilar, detectar y registrar eventos sospechosos, manteniendo logs y clasificando comportamientos sospechosos.
 
 ---
 
@@ -37,7 +43,7 @@ src/
     └── ProcessAnalyzer.java        // Detecta CPU alta, lista negra, persistencia
 
 ```
-
+El diseño favorece modularidad, lectura y extensión futura del sistema.
 ---
 
 ## 🚀 Ejecución del sistema
